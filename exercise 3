@@ -1,9 +1,12 @@
 <?php
-$cantidad=84;
-$factores=[0];
-for($acum=1;$acum<84;$acum++)
+$cantidad=600851475143;
+$factores[]=array(0);
+$mayor=0;
+for($num1=2;$num1<$cantidad;$num1++)
 {
-    if()
+    if($cantidad%$num1==0)
     {
+        $cantidad=$cantidad/$num1;
+        $factores[$num1]=$cantidad;
     }
 }
