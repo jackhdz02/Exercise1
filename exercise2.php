@@ -16,3 +16,4 @@ for($count1=0;$count1<=33;$count1++)
     }
 }
 echo "El total es:" . $total;
+?>
