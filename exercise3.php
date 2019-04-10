@@ -12,5 +12,5 @@ for($num1=2;$num1<=$numO;$num1++)
         $heigher=$num1;
     }
 }
-echo 'El factor mayor es: '. $heigher;
+echo 'El factor mayor es : '. $heigher;
 ?>
